@@ -1,6 +1,6 @@
 _get_client_file() {
     local _link="$(cat $v2ray_client_config | tr -d [:space:] | base64 -w0)"
-    local link="https://233boy.github.io/tools/json.html#${_link}"
+    local link="https://jeffrey82.github.io/tools/json.html#${_link}"
     echo
     echo "---------- V2Ray 客户端配置文件链接 -------------"
     echo
